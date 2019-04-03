@@ -1,0 +1,15 @@
+For this sentiment analysis problem , I have tried three different algorithms to get a better result.  
+The whole process includes data preprocessing, feature selection and modeling.
+For the data preprocessing part, I have remove punctuation and stop words and special tag such as </br>
+For the feature selection part, I have tried TF_IDF and wordvector
+For the modeling , I have tried machine learning algorithm and deep learning .
+
+The following are three different algorithms and their result
+
+1. Tf-IDF + XGboost accuracy is 0.88
+2. Tf-IDF + MLP  accuracy is 0.83
+3. Wordvector+ LSTM accuracy is 0.85
+
+In conclusion, TF+XGboost has the best performance. Actually I expected LSTM has the best performance, but due to time limitation , I have little time to do parameter tuning. I will improve it in the future.
+
+The code is in Sentiment Analysis for Large Movie Review Dataset.ipynb
